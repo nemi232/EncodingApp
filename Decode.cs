@@ -2,7 +2,7 @@ using System;
 using System.Text;
 
 namespace Compress{
-    interface Decoderr
+    class Decoder
     {
         public static string RunLengthDecoding(string s)
         {

@@ -15,7 +15,7 @@ namespace Compress
 
 
         public static void RunningApp()
-        {
+        { 
             bool answer = true;
             while (answer)
             {
@@ -31,7 +31,7 @@ namespace Compress
                 {
                     Console.WriteLine("Provide text to decode ");
                     string k = Console.ReadLine();
-                    Console.WriteLine($"Decoded output :  {Decoderr.RunLengthDecoding(k)}");
+                    Console.WriteLine($"Decoded output :  {Decoder.RunLengthDecoding(k)}");
                 }
                 Console.WriteLine("Do you want to repeat ? Y/N");
                 string ans = Console.ReadLine().ToLower();
